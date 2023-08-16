@@ -119,7 +119,7 @@ class ScannerOverlayImpl @JvmOverloads constructor(
     }
 
     override fun drawDetectedBox(points: List<Point>) {
-        Log.e("drawDetectedBox", "" + Gson().toJson(points))
+//        Log.e("drawDetectedBox", "" + Gson().toJson(points))
         try {
             this.points = points
             this.topLeftPoint = points[0]
